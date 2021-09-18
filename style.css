@@ -4,6 +4,13 @@
   }
 }
 
+body::before {
+    display: block;
+    content: '';
+    height: 5px;
+    }
+
+
 .card-styles {
     border-radius: 25px;
 }
